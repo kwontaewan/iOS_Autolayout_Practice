@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		5B19BD6E244AF17B002E572E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19BD6D244AF17B002E572E /* AppDelegate.swift */; };
 		5B19BD70244AF17B002E572E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19BD6F244AF17B002E572E /* SceneDelegate.swift */; };
-		5B19BD72244AF17B002E572E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19BD71244AF17B002E572E /* ViewController.swift */; };
+		5B19BD72244AF17B002E572E /* StackViewExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19BD71244AF17B002E572E /* StackViewExampleVC.swift */; };
 		5B19BD75244AF17B002E572E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B19BD73244AF17B002E572E /* Main.storyboard */; };
 		5B19BD77244AF17E002E572E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B19BD76244AF17E002E572E /* Assets.xcassets */; };
 		5B19BD7A244AF17E002E572E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B19BD78244AF17E002E572E /* LaunchScreen.storyboard */; };
+		5B19BD84244B2038002E572E /* DynamicFontExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19BD83244B2038002E572E /* DynamicFontExampleVC.swift */; };
+		5B19BD86244B2119002E572E /* Cert_BG.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5B19BD85244B2119002E572E /* Cert_BG.PNG */; };
+		5B19BD89244B2B3D002E572E /* CustomKeyboardExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19BD88244B2B3D002E572E /* CustomKeyboardExampleVC.swift */; };
+		5B19BD8B244B2BF8002E572E /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B19BD8A244B2BF8002E572E /* CustomKeyboard.swift */; };
+		5B19BD8D244B2C4A002E572E /* CustomKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B19BD8C244B2C4A002E572E /* CustomKeyboard.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B19BD6A244AF17B002E572E /* AuyolayoutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuyolayoutPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B19BD6D244AF17B002E572E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B19BD6F244AF17B002E572E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B19BD71244AF17B002E572E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B19BD71244AF17B002E572E /* StackViewExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewExampleVC.swift; sourceTree = "<group>"; };
 		5B19BD74244AF17B002E572E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B19BD76244AF17E002E572E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B19BD79244AF17E002E572E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B19BD7B244AF17E002E572E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B19BD83244B2038002E572E /* DynamicFontExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFontExampleVC.swift; sourceTree = "<group>"; };
+		5B19BD85244B2119002E572E /* Cert_BG.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cert_BG.PNG; path = "Lecture Image Resource/Cert_BG.PNG"; sourceTree = SOURCE_ROOT; };
+		5B19BD88244B2B3D002E572E /* CustomKeyboardExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardExampleVC.swift; sourceTree = "<group>"; };
+		5B19BD8A244B2BF8002E572E /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		5B19BD8C244B2C4A002E572E /* CustomKeyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomKeyboard.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		5B19BD6C244AF17B002E572E /* AuyolayoutPractice */ = {
 			isa = PBXGroup;
 			children = (
+				5B19BD87244B22C6002E572E /* res */,
 				5B19BD6D244AF17B002E572E /* AppDelegate.swift */,
 				5B19BD6F244AF17B002E572E /* SceneDelegate.swift */,
-				5B19BD71244AF17B002E572E /* ViewController.swift */,
+				5B19BD71244AF17B002E572E /* StackViewExampleVC.swift */,
+				5B19BD83244B2038002E572E /* DynamicFontExampleVC.swift */,
+				5B19BD88244B2B3D002E572E /* CustomKeyboardExampleVC.swift */,
+				5B19BD8A244B2BF8002E572E /* CustomKeyboard.swift */,
+				5B19BD8C244B2C4A002E572E /* CustomKeyboard.xib */,
 				5B19BD73244AF17B002E572E /* Main.storyboard */,
 				5B19BD76244AF17E002E572E /* Assets.xcassets */,
 				5B19BD78244AF17E002E572E /* LaunchScreen.storyboard */,
 				5B19BD7B244AF17E002E572E /* Info.plist */,
 			);
 			path = AuyolayoutPractice;
+			sourceTree = "<group>";
+		};
+		5B19BD87244B22C6002E572E /* res */ = {
+			isa = PBXGroup;
+			children = (
+				5B19BD85244B2119002E572E /* Cert_BG.PNG */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B19BD86244B2119002E572E /* Cert_BG.PNG in Resources */,
 				5B19BD7A244AF17E002E572E /* LaunchScreen.storyboard in Resources */,
 				5B19BD77244AF17E002E572E /* Assets.xcassets in Resources */,
 				5B19BD75244AF17B002E572E /* Main.storyboard in Resources */,
+				5B19BD8D244B2C4A002E572E /* CustomKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B19BD72244AF17B002E572E /* ViewController.swift in Sources */,
+				5B19BD72244AF17B002E572E /* StackViewExampleVC.swift in Sources */,
 				5B19BD6E244AF17B002E572E /* AppDelegate.swift in Sources */,
 				5B19BD70244AF17B002E572E /* SceneDelegate.swift in Sources */,
+				5B19BD8B244B2BF8002E572E /* CustomKeyboard.swift in Sources */,
+				5B19BD89244B2B3D002E572E /* CustomKeyboardExampleVC.swift in Sources */,
+				5B19BD84244B2038002E572E /* DynamicFontExampleVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
