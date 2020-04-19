@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyChattingCell" rowHeight="155" id="KGk-i7-Jjw" customClass="MyChattingCell" customModule="AuyolayoutPractice" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="382" height="155"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myBubble.png" translatesAutoresizingMaskIntoConstraints="NO" id="UHg-uc-1kI">
+                        <rect key="frame" x="256" y="10" width="116" height="135"/>
+                        <rect key="contentStretch" x="0.5" y="0.5" width="0.0" height="0.0"/>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="755" verticalHuggingPriority="755" scrollEnabled="NO" text="aaaaaaaaaa" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OL4-Yb-CnG">
+                        <rect key="frame" x="266" y="15" width="86" height="125"/>
+                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020.1.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vui-SL-BJE">
+                        <rect key="frame" x="211" y="133" width="40" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UHg-uc-1kI" firstAttribute="bottom" secondItem="vui-SL-BJE" secondAttribute="bottom" id="1d2-tx-a0t"/>
+                    <constraint firstItem="vui-SL-BJE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="7Rp-ub-tqI"/>
+                    <constraint firstItem="UHg-uc-1kI" firstAttribute="leading" secondItem="vui-SL-BJE" secondAttribute="trailing" constant="5" id="C12-Wm-UEY"/>
+                    <constraint firstItem="OL4-Yb-CnG" firstAttribute="leading" secondItem="UHg-uc-1kI" secondAttribute="leading" constant="10" id="GLT-Hj-ikL"/>
+                    <constraint firstAttribute="trailing" secondItem="UHg-uc-1kI" secondAttribute="trailing" constant="10" id="KLG-Qm-Dbq"/>
+                    <constraint firstItem="UHg-uc-1kI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="MmT-FV-OGW"/>
+                    <constraint firstItem="OL4-Yb-CnG" firstAttribute="bottom" secondItem="UHg-uc-1kI" secondAttribute="bottom" constant="-5" id="ahS-Pc-eea"/>
+                    <constraint firstItem="OL4-Yb-CnG" firstAttribute="top" secondItem="UHg-uc-1kI" secondAttribute="top" constant="5" id="sgd-DY-SG6"/>
+                    <constraint firstAttribute="bottom" secondItem="UHg-uc-1kI" secondAttribute="bottom" constant="10" id="trY-36-4IL"/>
+                    <constraint firstItem="OL4-Yb-CnG" firstAttribute="trailing" secondItem="UHg-uc-1kI" secondAttribute="trailing" constant="-20" id="yaM-AQ-zgI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="myTextView" destination="OL4-Yb-CnG" id="voL-KX-Bfa"/>
+            </connections>
+            <point key="canvasLocation" x="123.18840579710145" y="92.745535714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="myBubble.png" width="66.5" height="52.5"/>
+    </resources>
+</document>
